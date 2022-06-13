@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+
+}
+
+.container_imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 1rem 0.5rem 3rem 5rem;
+}
+
+.container_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 1rem 5rem 3rem 0.5rem;
+}
+
+.container_imagem .imagem-celular {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container_login .imagem-inst {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container_login .imagem-apple {
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 0.5rem;
+}
+
+.container_login .imagem-google {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 0.5rem;
+}
+
+.caixa {
+    border: 1px solid rgb(216, 215, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #ffffff;
+}
+
+.caixa-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.container_login div p {
+    text-align: center;
+}
+
+input, a {
+    display: block;
+}
+
+.logo-ins {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 3rem 0;
+}
+
+.logo-ins img {
+    width: 50%;
+}
+
+form {
+    width: 80%;
+}
+
+form input {
+    width: 100%;
+
+}
+
+form #senha {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form #senha, form #login {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(199, 196, 196);
+    border-width: thin;
+    padding-left: 0.5rem;
+    height: 2.5rem;
+}
+
+.caixa p {
+    margin-top: 1rem;
+    color: rgb(126, 125, 125);
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+#entrar {
+    background-color: rgb(0, 149, 246);
+    color: white;
+    border-color: rgb(0, 149, 246);
+    border-width: thin;
+    border-radius: 3px;
+    height: 2rem;
+    font-size: 14px;
+}
+
+.caixa div #entrar-facebook {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#entrar-facebook {
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+#link-facebook {
+    width: 80%;
+}
+
+#link-facebook div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#link-facebook img {
+    height: 15px;
+}
+
+#link-facebook a {
+    color: rgb(56, 81, 149);
+}
+
+#esqueceu-senha {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#cadastrar-ins {
+    border: 1px solid rgb(216, 215, 215);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+    background-color: #ffffff;
+}
+
+.container-lojas-app {
+    width: 70%;
+}
+
+.container-lojas-app p {
+    padding: 1rem 0;
+}
+
+.lojas-app {
+    display: flex;
+}
+
+.lojas-app div {
+    width: 50%;
+}
+
+#texto-ou {
+    padding-top: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#linha-horizontal {
+    height: 25px;
+    width: 100px;
+    border-bottom: 1px solid rgb(199, 196, 196);
+}
